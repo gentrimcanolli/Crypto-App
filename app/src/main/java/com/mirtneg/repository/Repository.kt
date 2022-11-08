@@ -6,7 +6,8 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class Repository {
-    val BASE_URL = "https://api2.binance.com"
+    val BASE_URL = "https://api.coindesk.com"
+
     val apiService: ApiService
 
     init {
